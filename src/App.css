@@ -1,0 +1,38 @@
+
+.App {
+  text-align: center;
+  
+}
+.App.imm{
+  top:100px;
+  width:500px;
+  height:300px;
+  margin:40px 0;
+  box-shadow:-30px 30px 20px rgba(0,0,0.3);
+  justify-content:center;
+  position:relative;
+  flex-direction:column;
+  background:rgb(0, 0, 0);
+
+}
+
+
+.App-header {
+  background-image:url('../src/java.jpg') ;
+  min-height: 100vh;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color:bisque;
+  box-shadow: black;
+  
+ 
+
+}
+
+.image1:hover {
+  transform: scaleX(-1);
+}
+
